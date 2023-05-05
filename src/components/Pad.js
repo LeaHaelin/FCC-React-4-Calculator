@@ -5,7 +5,7 @@ export const Pad = () => {
         <div className='pad'>
             <div className="pad__keys">
                 <div className="keys--1">
-                    <button className="pad__key--decimal">.</button>
+                    <button id='decimal' className="pad__key--decimal">.</button>
                     <button id='zero' className="pad__key--0">0</button>
                     <button id='divide' className="pad__key--divide">/</button>
                     <button id='one' className="pad__key--1">1</button>
